@@ -11,7 +11,7 @@ Telemetry provides insight into device health and user experience. MangoCloud co
 
 ## Collection
 
-- OpenWiFi devices stream metrics and events via secure WebSockets.
+- OpenLAN devices stream metrics and events via secure WebSockets.
 - Edge collectors batch data to reduce bandwidth and backpressure.
 - Sampling rates can be tuned per profile.
 

@@ -1,13 +1,18 @@
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import RouterArchitectsLink from '@site/src/components/RouterArchitectsLink';
 import styles from './index.module.css';
 
 const projectHighlights = [
   {
     title: 'Open-source & community driven',
-    description:
-      'Transparent roadmap, public issue tracker, and contribution model backed by Router Architects.',
+    description: (
+      <>
+        Transparent roadmap, public issue tracker, and contribution model backed by{' '}
+        <RouterArchitectsLink />.
+      </>
+    ),
   },
   {
     title: 'Built for production',
@@ -15,9 +20,9 @@ const projectHighlights = [
       'Multi-tenant clustering, automated upgrades, and guardrails for ISPs running national networks.',
   },
   {
-    title: 'OpenWiFi native',
+    title: 'OpenLAN native',
     description:
-      'First-class support for Access Points, Switches, and OpenLAN Gateways with OpenWiFi firmware.',
+      'First-class support for OpenWiFi Access Points, OpenLAN Switches, and Gateways with OpenLAN firmware.',
   },
 ];
 
@@ -34,7 +39,7 @@ export default function Home() {
   return (
     <Layout
       title="MangoCloud"
-      description="Open-source, scalable, production-ready cloud controller for OpenWiFi devices.">
+      description="Open-source, scalable, production-ready cloud controller for OpenWiFi Access Points, OpenLAN Switches, and Gateways.">
       <header className="hero hero--primary">
         <div className="container">
           <Heading as="h1" className="hero__title">
@@ -42,7 +47,7 @@ export default function Home() {
           </Heading>
           <p className="hero__subtitle">
             Open-source, scalable and production-ready cloud controller for OpenWiFi Access Points,
-            Switches and OpenLAN Gateways.
+            OpenLAN Switches and Gateways.
           </p>
           <div className={styles.buttons}>
             <Link className="button button--secondary button--lg" to="/docs/intro/overview">
@@ -78,14 +83,16 @@ export default function Home() {
           <div className="container">
             <Heading as="h2">Supported Devices</Heading>
             <p className="margin-bottom--lg">
-              MangoCloud manages the full OpenWiFi device portfolio with consistent policy controls.
+              MangoCloud manages the full OpenLAN device portfolio with consistent policy controls.
             </p>
             <ul>
-              <li>Access Points (APs)</li>
-              <li>Switches</li>
-              <li>OpenLAN Gateways (OLGs)</li>
+              <li>OpenWiFi Access Points (OWF)</li>
+              <li>OpenLAN Switches (OLS)</li>
+              <li>OpenLAN Gateways (OLG)</li>
             </ul>
-            <Link to="/docs/hardware/supported-devices" className="button button--link">
+            <Link
+              to="/docs/hardware/supported-devices"
+              className="button button--primary margin-top--md">
               View full compatibility list →
             </Link>
           </div>
@@ -113,8 +120,8 @@ export default function Home() {
             <Heading as="h2">Roadmap Snapshot</Heading>
             <div className="row">
               <div className="col col--4">
-                <h3>v0.x</h3>
-                <p>Core services, controller scaffolding, and OpenWiFi baseline features.</p>
+            <h3>v0.x</h3>
+            <p>Core services, controller scaffolding, and OpenLAN baseline features.</p>
               </div>
               <div className="col col--4">
                 <h3>v1.0</h3>
@@ -152,7 +159,7 @@ export default function Home() {
             </Heading>
             <p className="text--white">
               Participate in discussions, propose features, and help maintain MangoCloud for the
-              OpenWiFi ecosystem.
+              OpenLAN ecosystem.
             </p>
             <div className={styles.buttons}>
               <Link

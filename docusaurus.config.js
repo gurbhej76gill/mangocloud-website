@@ -126,7 +126,8 @@ const config = {
             ],
           },
         ],
-        copyright: 'MangoCloud is an open-source project maintained by Router Architects.',
+        copyright:
+          'MangoCloud is an open-source project maintained by <a class="router-architects-footer-link" href="https://www.routerarchitects.com" target="_blank" rel="noopener noreferrer">Router Architects</a>.',
       },
       prism: {
         theme: prismThemes.github,

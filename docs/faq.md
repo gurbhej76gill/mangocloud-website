@@ -5,19 +5,21 @@ title: FAQ
 sidebar_position: 1
 ---
 
+import RouterArchitectsLink from '@site/src/components/RouterArchitectsLink';
+
 # FAQ
 
 ## Is MangoCloud open-source?
 
-Yes. Source code lives under the Router Architects GitHub organization with an open license and CLA requirement.
+Yes. Source code lives under the <RouterArchitectsLink /> GitHub organization with an open license and CLA requirement.
 
 ## Which hardware is supported?
 
-All OpenWiFi compliant Access Points, Switches, and OLGs listed in the [Supported Devices](/docs/hardware/supported-devices) document.
+All OpenWiFi compliant Access Points, OpenLAN Switches, and OpenLAN Gateways (OLGs) listed in the [Supported Devices](/docs/hardware/supported-devices) document.
 
 ## How do I report security issues?
 
-Email security@routerarchitects.com with encrypted details. Do not file public issues.
+Email support@routerarchitects.com with encrypted details. Do not file public issues.
 
 ## Does MangoCloud scale to large deployments?
 

@@ -28,3 +28,38 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.router-architects-link,
+a[href='https://www.routerarchitects.com'] {
+  font-family: var(--ifm-font-family-mono);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 0.25rem;
+  padding: 0 0.15rem;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+.router-architects-link.router-architects-pill:not(.button--outline) {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.25rem 0.8rem;
+  border-radius: 9999px;
+  background: #2e8555;
+  border: 1px solid #1f6d3d;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: none;
+  box-shadow: 0 2px 6px rgba(46, 133, 85, 0.25);
+}
+.router-architects-link.button--secondary {
+  background: #ffffff !important;
+  color: #163b4e !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.router-architects-footer {
+  background: #ffffff !important;
+  color: #163b4e !important;
+  border-color: #1f6d3d !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
