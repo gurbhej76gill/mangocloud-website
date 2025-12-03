@@ -5,9 +5,11 @@ title: Contributing
 sidebar_position: 1
 ---
 
+import RouterArchitectsLink from '@site/src/components/RouterArchitectsLink';
+
 # Contributing
 
-MangoCloud welcomes contributions from Router Architects partners and the broader OpenWiFi community.
+MangoCloud welcomes contributions from <RouterArchitectsLink /> partners and the broader OpenLAN community.
 
 ## Process
 
@@ -25,5 +27,5 @@ MangoCloud welcomes contributions from Router Architects partners and the broade
 ## Communication
 
 - Discussions: https://github.com/RouterArchitects/mangocloud-community/discussions
-- Security: security@routerarchitects.com
+- Security: support@routerarchitects.com
 - Release Announcements: posted via Discussions and mailing list.

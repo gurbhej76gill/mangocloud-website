@@ -14,7 +14,7 @@ Use this guide to install MangoCloud locally or in a production cluster.
 - Node.js 20+ for UI builds
 - Container runtime (Docker or containerd)
 - Kubernetes cluster (recommended) or Docker Compose environment
-- Access to OpenWiFi devices (AP, Switch, or OLG) for validation
+- Access to OpenLAN devices (OpenWiFi Access Points, OpenLAN Switches, or OpenLAN Gateways) for validation
 
 ## Installation Options
 

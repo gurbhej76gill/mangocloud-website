@@ -7,16 +7,16 @@ sidebar_position: 1
 
 # Supported Devices
 
-MangoCloud is engineered for the entire OpenWiFi portfolio.
+MangoCloud is engineered for the entire OpenLAN portfolio.
 
 ## Access Points
 
-- All OpenWiFi certified indoor and outdoor models
+- All OpenLAN-certified indoor and outdoor models
 - Supports firmware management, radio tuning, and health monitoring
 
-## Switches
+## OpenLAN Switches
 
-- OpenWiFi-compatible aggregation and access switches
+- OpenLAN-compatible aggregation and access switches
 - VLAN, QoS, and PoE policy orchestration with telemetry feedback
 
 ## OpenLAN Gateways (OLGs)

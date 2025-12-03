@@ -5,13 +5,15 @@ title: Contributor License Agreement
 sidebar_position: 2
 ---
 
+import RouterArchitectsLink from '@site/src/components/RouterArchitectsLink';
+
 # Contributor License Agreement
 
-All contributors must sign the Router Architects CLA to participate.
+All contributors must sign the <RouterArchitectsLink /> CLA to participate.
 
 ## Why a CLA?
 
-- Protects both contributors and Router Architects by clarifying IP ownership.
+- Protects both contributors and <RouterArchitectsLink /> by clarifying IP ownership.
 - Ensures MangoCloud remains open-source friendly while enabling commercial adoption.
 
 ## How to Sign
@@ -22,4 +24,4 @@ All contributors must sign the Router Architects CLA to participate.
 
 ## Questions
 
-Email cla@routerarchitects.com for clarifications or corporate agreements.
+Email support@routerarchitects.com for clarifications or corporate agreements.
