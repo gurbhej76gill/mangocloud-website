@@ -77,13 +77,19 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
-      navbar: {
-        title: 'MangoCloud',
+  navbar: {
+        title: '',
         logo: {
           alt: 'MangoCloud Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
+          {
+            type: 'html',
+            value:
+              '<a href=\"/\" class=\"navbar__icon-link\" aria-label=\"MangoCloud\"><img src=\"/img/logo.png\" alt=\"MangoCloud\" /></a>',
+            position: 'left',
+          },
           {to: '/', label: 'Home', position: 'left'},
           {to: '/docs/intro/overview', label: 'Docs', position: 'left'},
           {to: '/roadmap', label: 'Roadmap', position: 'left'},
